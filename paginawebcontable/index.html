@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICONT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">SERVICONT</p>
+            <nav>
+                <a href="#hero">INICIO</a>
+                <a href="#quienes-somos">SOBRE NOSOTROS</a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion&type=phone_number&app_absent=0"
+                    target="_blank">CONTACTENOS</a>
+                <a href="#nuestros-servicios">NUESTROS SERVICIOS</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>ESTUDIO CONTABLE <br> SERVICONT</h1>
+        <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion&type=phone_number&app_absent=0"
+        target="_blank">
+        <button>CONTACTAR</button>
+    </a>
+    </section>
+
+    <section id="quienes-somos">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h2> Quienes <span class="color-acento">Somos!</span></h2>
+                <p>Somos una empresa responsable dedicada a prestar servicios y asesoria contable que inicio en el año
+                    2014 <br> Que busca ofrecer el mejor servicio a sus clientes y garantizando del trabajo realizado.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mision">
+        <div class="container">
+            <div class="mision-titulo">
+                <h2>Misión</h2>
+            </div>
+            <div class="mision-texto">
+                <p>Nuestra misión es proporcionar servicios contables y fiscales de alta calidad, 
+                    adaptados a las necesidades específicas de nuestros clientes, mediante un enfoque personalizado y profesional. 
+                    Nos comprometemos a ofrecer asesoría confiable y eficiente, ayudando a nuestros clientes a cumplir con sus obligaciones fiscales y a optimizar su gestión contable, garantizando su tranquilidad y éxito financiero.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision">
+        <div class="container">
+            <div class="vision-texto">
+                <p>Nuestra visión es convertirnos en el estudio contable de referencia en la ciudad, reconocidos por nuestra excelencia en el servicio 
+                    y compromiso con la satisfacción del cliente. Aspiramos a expandir nuestra presencia y que faciliten la gestión contable y fiscal, 
+                    contribuyendo al crecimiento sostenible de nuestros clientes y nuestra comunidad.</p>
+            </div>
+            <div class="vision-titulo">
+                <h2>Visión</h2>
+            </div>
+        </div>
+    </section>
+    
+    <section id="nuestros-servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios">
+                <div class="carta">
+                    <h3>RUC</h3> <br>
+                    <p>Inscripcion de registro unico del contribuyente </p>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion del servicio RUC&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <button>Mas Informacion</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>IVA</h3> <br>
+                    <p>Presentacion del impuesto al valor agregado</p>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion el servicio de IVA&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <button> Mas Informacion</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>IRE SIMPLE</h3>
+                    <p>Presentacion del impuesto a la renta empresarial</p>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion el servicio de IRE Simple&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <button> Mas Informacion</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>IRP</h3> <br>
+                    <p>Presentacion del impuesto a la renta personal</p>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion el servicio de IRP&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <button> Mas Informacion</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>IRP-RGC</h3> <br>
+                    <p>Presentacion de impuesto a la renta personal y ganancia de capital</p>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B595955555555&text=Quiero mas Informacion el servicio de IRP-RGC&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <button> Mas Informacion</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sugerencias1">
+        <div class="container">
+            <div class="sugerencias1-form">
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="nombre">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="apellido">
+
+                    <label for="sugerencia">Sugerencia</label>
+                    <input type="text" id="sugerencia" placeholder="sugerencia">
+                    <button type="button" onclick="enviarcorreo(event)">Enviar</button>
+                </form>
+            </div>
+            <div class="sugerencias1-titulo">
+                <h2>¿Tienes una sugerencia?</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="mapa">
+        <div class="container">
+            <div class="mapa-texto">
+                <h2>Donde Encontrarnos</h2>
+            </div>
+            <div class="mapa-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.9651325741143!2d-57.170209223799745!3d-25.37248503062004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945c33de5e29c5af%3A0xb2e635706a169753!2sMango%20Jazm%C3%ADn%20Caba%C3%B1as!5e0!3m2!1ses!2spy!4v1716760716878!5m2!1ses!2spy"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; SERVICONT 2024</p>
+        </div>
+    </footer>
+
+    <!-- para asegurar de que el script de EmailJS se carga antes del script personalizado script1.js:-->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script1.js"></script>
+
+</body>
+
+</html>
